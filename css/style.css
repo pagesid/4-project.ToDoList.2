@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 *,
 *::before,
 *::after {
@@ -8,7 +9,7 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -100,6 +101,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .todo__add::before {
+  content: "";
   position: absolute;
   top: 5px;
   left: 5px;
@@ -109,7 +111,6 @@ input:focus:-ms-input-placeholder {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  content: "";
 }
 
 .todo__options {
