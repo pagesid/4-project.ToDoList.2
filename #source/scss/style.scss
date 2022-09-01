@@ -241,3 +241,34 @@ right: 15px;
 [data-todo-option="deleted"] .todo__item:not([data-todo-state="deleted"]) {
 display: none;
 }
+
+
+/*----- Адаптив ---------------------------------------*/
+
+@media (max-width: 470px) {
+	.todo{
+		padding: 0 15px;
+	}
+	.todo__input{
+		flex: 1 1 100%;
+		margin-bottom: 15px;
+		
+	}
+	.todo__text{
+		height: 40px;
+	}
+	.todo__add{
+		width: 36px;
+		height: 36px;
+	}
+	.todo__add::before {
+		top: 10px;
+		left: 10px;
+	}
+
+	.todo__options{
+		flex: 0 1 99%;
+		height: 40px;
+	}
+}
+/*-----------------------------------*/
