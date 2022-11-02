@@ -116,7 +116,7 @@ input:focus:-ms-input-placeholder {
 .todo__options {
   width: 150px;
   max-width: 100%;
-  padding: 2px 30px 6px 12px;
+  padding: 6px 30px 6px 12px;
   color: #fff;
   font-size: inherit;
   font-family: inherit;
